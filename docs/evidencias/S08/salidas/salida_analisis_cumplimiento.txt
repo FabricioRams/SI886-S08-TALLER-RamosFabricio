@@ -1,0 +1,78 @@
+================================================================================
+  REPORTE DE CUMPLIMIENTO NORMATIVO Y GOBERNANZA TECNOLÓGICA — PETI v0.8
+  ORGANIZACIÓN: CrediTech Perú S.A.C. | RUC: 20608945123
+================================================================================
+
+--- 1. RESUMEN CUANTITATIVO DEL ESTADO DE CUMPLIMIENTO ---
+           Cantidad  Porcentaje (%)
+Estado                             
+No cumple        13            50.0
+Parcial           9            34.6
+Cumple            4            15.4
+
+Total de obligaciones evaluadas: 26
+  • Cumplimiento total   : 4 (15.4%)
+  • Cumplimiento parcial : 9 (34.6%)
+  • Incumplimiento total : 13 (50.0%)
+  --> Brecha de riesgo legal/regulatorio: 84.6% de las obligaciones requieren intervención.
+
+--- 2. DETECCIÓN DE OBLIGACIONES SIN RESPONSABLE ASIGNADO ---
+Total sin área responsable: 2
+ALERTA CRÍTICA DE GOBERNANZA: Una obligación legal sin responsable no se gestiona;
+se descubre únicamente al momento de una fiscalización o incidente sancionatorio.
+
+  [!] ID: N-08 | Norma: D.S. N.° 016-2024-JUS | Art: Art. 39
+      Obligación : Realizar Evaluación de Impacto en la Protección de Datos Personales (EIPD) previa al uso de IA y scoring masivo
+      Consecuencia: Orden de suspensión del algoritmo de scoring por la ANPD y sanción de hasta 100 UIT
+      Acción recomendada: Asignar formalmente al área correspondiente en el MOF institucional.
+
+  [!] ID: N-24 | Norma: Resolución SUNAT N.° 097-2012 | Art: Art. 4
+      Obligación : Conservar en medio digital inmutable por un periodo no menor a 5 años los comprobantes de pago XML y CDR
+      Consecuencia: Multa de SUNAT según Código Tributario (Tablas de Infracciones y Sanciones) y desconocimiento de gasto
+      Acción recomendada: Asignar formalmente al área correspondiente en el MOF institucional.
+
+
+--- 3. OBLIGACIONES EVALUADAS POR MARCO NORMATIVO ---
+  • Resolución SBS N.° 504-2021    :  8 obligaciones (Cumple: 0, Parcial: 4, No cumple: 4)
+  • D.S. N.° 016-2024-JUS          :  5 obligaciones (Cumple: 0, Parcial: 0, No cumple: 5)
+  • Ley N.° 29733                  :  2 obligaciones (Cumple: 0, Parcial: 2, No cumple: 0)
+  • D. Leg. N.° 822                :  2 obligaciones (Cumple: 0, Parcial: 2, No cumple: 0)
+  • Resolución SBS N.° 3198-2023   :  2 obligaciones (Cumple: 0, Parcial: 0, No cumple: 2)
+  • Resolución SBS N.° 789-2018    :  2 obligaciones (Cumple: 2, Parcial: 0, No cumple: 0)
+  • Ley N.° 29571                  :  2 obligaciones (Cumple: 2, Parcial: 0, No cumple: 0)
+  • Resolución SBS N.° 11356-2008  :  1 obligaciones (Cumple: 0, Parcial: 1, No cumple: 0)
+  • Ley N.° 27269                  :  1 obligaciones (Cumple: 0, Parcial: 0, No cumple: 1)
+  • Resolución SUNAT N.° 097-2012  :  1 obligaciones (Cumple: 0, Parcial: 0, No cumple: 1)
+
+--- 4. PROYECTOS NO NEGOCIABLES DERIVADOS DE OBLIGACIONES LEGALES ---
+Principio PETI: Los proyectos derivados de mandatos legales vencidos o perentorios
+ingresan directamente al Portafolio (Sección 7.1) sin competir en priorización (Sección 7.2).
+
+ID     | Plazo       | Proyecto que Cierra la Brecha                           | Norma Reguladora
+---------------------------------------------------------------------------------------------------------
+N-02   | Inmediato   | Proyecto de Cumplimiento Normativo y Gobernanza de Da   | D.S. N.° 016-2024-JUS
+N-04   | Inmediato   | Regularización y Gestión Centralizada de Activos de S   | D. Leg. N.° 822
+N-09   | Inmediato   | Actualización y Aprobación de la Política Corporativa   | Resolución SBS N.° 504-2021
+N-10   | Inmediato   | Designación Formal del CISO y Creación de la Función    | Resolución SBS N.° 504-2021
+N-18   | Inmediato   | Recalibración Algorítmica y Supresión de Variables Di   | Resolución SBS N.° 3198-2023
+N-03   | 30 días     | Regularización Contractual y Registro de Flujo Transf   | D.S. N.° 016-2024-JUS
+N-06   | 30 días     | Designación y Empoderamiento del Oficial de Protecció   | D.S. N.° 016-2024-JUS
+N-07   | 30 días     | Protocolo de Notificación Rápida de Incidentes y Brec   | D.S. N.° 016-2024-JUS
+N-12   | 30 días     | Servicio de Ethical Hacking Integral y Remediación de   | Resolución SBS N.° 504-2021
+N-19   | 30 días     | Módulo de Explicabilidad Algorítmica y Atención de Ap   | Resolución SBS N.° 3198-2023
+N-05   | 45 días     | Implementación de Módulo de Gestión de Consentimiento   | Ley N.° 29733
+N-16   | 45 días     | Prueba Operativa y Actualización del Plan de Continui   | Resolución SBS N.° 504-2021
+N-23   | 45 días     | Implementación de Firma Digital PKI Acreditada con Pa   | Ley N.° 27269
+N-01   | 60 días     | Programa Integral de Seguridad de la Información y Ci   | Ley N.° 29733
+N-08   | 60 días     | Auditoría Algorítmica y Evaluación de Impacto en Prot   | D.S. N.° 016-2024-JUS
+N-14   | 60 días     | Implementación de Pipeline DevSecOps con Pruebas Auto   | Resolución SBS N.° 504-2021
+N-15   | 60 días     | Programa de Gestión de Riesgos de Terceros y Auditorí   | Resolución SBS N.° 504-2021
+N-17   | 60 días     | Sistema Automatizado de Registro de Incidentes Operac   | Resolución SBS N.° 11356-2008
+N-24   | 60 días     | Implementación de Bóveda Tributaria Digital Inmutable   | Resolución SUNAT N.° 097-2012
+N-11   | 90 días     | Gestión Integral de Activos de Información y Evaluaci   | Resolución SBS N.° 504-2021
+N-13   | 90 días     | Implementación de Monitoreo de Seguridad SIEM/SOC y G   | Resolución SBS N.° 504-2021
+N-22   | 90 días     | Registro de Propiedad Intelectual del Software Core a   | D. Leg. N.° 822
+
+================================================================================
+  FIN DEL REPORTE DE ANÁLISIS DE CUMPLIMIENTO
+================================================================================

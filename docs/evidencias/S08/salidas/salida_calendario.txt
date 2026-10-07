@@ -1,0 +1,61 @@
+================================================================================
+  CALENDARIO DE OBLIGACIONES PERIÓDICAS — PETI v0.8
+  ORGANIZACIÓN: CrediTech Perú S.A.C. | RUC: 20608945123
+================================================================================
+
+--- DISTRIBUCIÓN POR PERIODICIDAD ---
+Periodicidad
+Anual                   2
+Anual y ante cambios    1
+Mensual                 1
+Semestral               3
+Trimestral              3
+
+Obligaciones periódicas: 10
+Sin responsable asignado: 0
+
+→ Este calendario se incorpora a la sección 10 Supervisión: son los hitos
+  de cumplimiento que el tablero del plan debe monitorear.
+
+--- DETALLE DE OBLIGACIONES PERIÓDICAS Y PRÓXIMOS VENCIMIENTOS ---
+[C-01] Revisión y aprobación anual de la Política de Ciberseguridad por Directorio
+     Norma: Resolución SBS N.° 504-2021 | Periodicidad: Anual | Vence: 15 de enero de 2027
+     Responsable: Directorio + CISO | Evidencia: Acta de sesión de Directorio aprobatoria y plan anual ratificado
+
+[C-02] Ejecución de prueba de intrusión (Ethical Hacking) y escaneo de vulnerabilidades en APIs
+     Norma: Resolución SBS N.° 504-2021 | Periodicidad: Anual | Vence: 30 de noviembre de 2026
+     Responsable: CISO | Evidencia: Informe técnico de empresa externa independiente y matriz de remediación
+
+[C-03] Simulación operativa de failover y prueba del Plan de Continuidad Tecnológica (DRP)
+     Norma: Resolución SBS N.° 504-2021 | Periodicidad: Semestral | Vence: 15 de diciembre de 2026
+     Responsable: Operaciones TI + CISO | Evidencia: Acta técnica de conmutación con medición de RTO y RPO reales
+
+[C-04] Conciliación y revisión periódica de privilegios de acceso y cuentas de usuario en el core
+     Norma: Resolución SBS N.° 504-2021 | Periodicidad: Trimestral | Vence: 31 de diciembre de 2026
+     Responsable: Seguridad + TI | Evidencia: Acta de depuración y conciliación de accesos firmada por jefaturas
+
+[C-05] Prueba de restauración de respaldos y verificación de consistencia de base de datos
+     Norma: Resolución SBS N.° 11356-2008 | Periodicidad: Trimestral | Vence: 31 de diciembre de 2026
+     Responsable: Operaciones TI | Evidencia: Bitácora de restauración en ambiente aislado con hash de integridad
+
+[C-06] Actualización del inventario de software y conciliación de licencias adquiridas
+     Norma: D. Leg. N.° 822 | Periodicidad: Semestral | Vence: 15 de diciembre de 2026
+     Responsable: TI | Evidencia: Inventario de software contrastado contra contratos y facturas de compra
+
+[C-07] Actualización del Registro de Actividades de Tratamiento (RAT) de datos personales
+     Norma: D.S. N.° 016-2024-JUS | Periodicidad: Anual y ante cambios | Vence: 31 de diciembre de 2026
+     Responsable: Oficial de Datos + Legal | Evidencia: Documento RAT versionado con catálogo de bancos y flujos transfronterizos
+
+[C-08] Calibración estadística y auditoría de no discriminación del modelo de scoring
+     Norma: Resolución SBS N.° 3198-2023 | Periodicidad: Trimestral | Vence: 31 de diciembre de 2026
+     Responsable: Riesgos + Analítica | Evidencia: Informe estadístico de paridad algorítmica y control de sesgo territorial
+
+[C-09] Capacitación obligatoria a colaboradores en ciberseguridad y protección de datos
+     Norma: Resolución SBS N.° 504-2021 | Periodicidad: Semestral | Vence: 20 de noviembre de 2026
+     Responsable: CISO + Gestión Humana | Evidencia: Registro de asistencia digital y examen de efectividad con métricas de phishing simulado
+
+[C-10] Conciliación mensual y custodia inmutable de comprobantes electrónicos XML y CDR
+     Norma: Resolución SUNAT N.° 097-2012 | Periodicidad: Mensual | Vence: 06 de noviembre de 2026
+     Responsable: Administración y Finanzas | Evidencia: Reporte de conciliación de comprobantes emitidos vs custodiados en bóveda WORM
+
+================================================================================
